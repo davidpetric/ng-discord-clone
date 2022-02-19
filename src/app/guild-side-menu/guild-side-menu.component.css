@@ -1,0 +1,171 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.dark-gray-bg {
+  background-color: #2f3136;
+}
+
+.server-name {
+  color: white;
+  font-size: 0.5rem;
+  padding: 2em;
+}
+
+.server-channels {
+  color: #8e9293;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.server-channel-header {
+  display: inline-flex;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  padding-left: 1em;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.f-icon {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.f-icon-fill {
+  fill: #8e9293;
+}
+
+.f-icon-fill:hover {
+  color: #8e9293;
+  fill: #8e9293;
+}
+
+li:hover {
+  background-color: rgba(255, 255, 255, 0.03);
+  border-radius: 0.5em;
+  color: white;
+}
+
+li > p {
+  margin-left: 0.5em;
+}
+
+.channel-add {
+  padding-left: 6em;
+}
+
+.text-channel-actions {
+  display: flex;
+  margin-left: 8em;
+  font-size: 0.7rem;
+  gap: 1em;
+}
+
+.user-info {
+  display: inline-flex;
+  background-color: #292b2f;
+  height: 60px;
+  width: 250px;
+  gap: 0.5em;
+  align-items: center;
+  color: #8e9293;
+}
+
+.user-info > div > img {
+  display: flex;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 30px;
+  margin-left: 0.5em;
+}
+
+.status {
+  width: 0.8em;
+  height: 0.8em;
+  border-radius: 50%;
+  position: relative;
+  margin-left: 2.5em;
+  background-color: #8e9293;
+  margin-top: -1em;
+}
+
+.user-details {
+  font-size: 0.9em;
+  padding: 0;
+  margin: 0;
+}
+
+.user-name {
+  color: white;
+  font-weight: 700;
+}
+
+.user-id {
+  margin-top: -1em;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.user-actions {
+  margin-left: 1em;
+  display: flex;
+  flex-direction: row;
+  gap: 1.2em;
+}
+
+.voice-connected {
+  display: flex;
+  flex-direction: column;
+}
+
+.voice-channel-info-text {
+  display: flex;
+  color:white;
+  flex-direction: column;
+}
+
+.voice-channel-info {
+  background-color: #292b2f;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.voice-channel-actions {
+  display: flex;
+  padding: 0.2em;
+}
+
+.btn {
+  border: none;
+  border-radius: 10%;
+  color: white;
+  fill: white;
+  background-color: #2e3035;
+  width: 6.5em;
+  font-size: 1rem;
+  margin-left: 0.8em;
+}
+.btn-video {
+  display: flex;
+  align-items: center;
+}
+
+.btn-screen {
+  display: flex;
+  align-items: center;
+
+}
