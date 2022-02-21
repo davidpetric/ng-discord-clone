@@ -1,6 +1,12 @@
 <div class="container">
   <app-side-menu class="col-side-menu"></app-side-menu>
   <app-guild-side-menu class="col-guild-side-menu"></app-guild-side-menu>
-  <app-guild-chat class="col-guild-chat"></app-guild-chat>
-  <app-guild-members class="col-guild-members"></app-guild-members>
+
+  <div class="guild-navbar-chat-members">
+    <app-guild-navbar class="guild-navbar"></app-guild-navbar>
+    <div class="chat-members">
+      <app-guild-chat class="col-guild-chat"></app-guild-chat>
+      <app-guild-members class="col-guild-members"></app-guild-members>
+    </div>
+  </div>
 </div>

@@ -1,25 +1,39 @@
 .container {
   display: flex;
+  justify-content: flex-start;
   height: 100vh;
-  width: 100vw;
+  flex-shrink: 0;
+  width: 1750px;
 }
 
-.col-side-menu {
-  width: 100px;
+.guild-navbar {
+  width: 1400px;
 }
 
-.col-guild-side-menu {
-  width: 250px;
+.guild-navbar-chat-members {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
 
+.chat-members {
+  display: flex;
+  width: 1400px;
 }
 
 .col-guild-chat {
-  width: 1500px;
-
+  width: 1200px;
 }
 
 .col-guild-members {
-  width: 250px;
+  width: 200px;
 }
 
 
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: #6a6e75;
+}

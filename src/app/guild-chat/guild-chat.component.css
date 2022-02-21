@@ -151,14 +151,6 @@ input {
   overflow-wrap: break-word;
 }
 
-input:focus {
-  outline: none;
-}
-
-input::placeholder {
-  color: #6a6e75;
-}
-
 .plus-circle {
   width: 25px;
   height: 25px;

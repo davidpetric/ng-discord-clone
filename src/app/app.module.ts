@@ -7,6 +7,7 @@ import { GuildSideMenuComponent } from './guild-side-menu/guild-side-menu.compon
 import { GuildChatComponent } from './guild-chat/guild-chat.component';
 import { GuildMembersComponent } from './guild-members/guild-members.component';
 import { IconsModule } from './icons/icons.module';
+import { GuildNavbarComponent } from './guild-navbar/guild-navbar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { IconsModule } from './icons/icons.module';
     SideMenuComponent,
     GuildSideMenuComponent,
     GuildChatComponent,
-    GuildMembersComponent
+    GuildMembersComponent,
+    GuildNavbarComponent
   ],
   imports: [
     BrowserModule,
