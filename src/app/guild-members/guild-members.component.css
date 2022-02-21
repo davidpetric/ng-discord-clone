@@ -1,8 +1,51 @@
 .container {
   width: 100%;
   height: 100%;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
 .bg {
   background-color: #2f3136;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 0.5em;
+}
+
+.users {
+  color: #72767b;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-items: flex-start;
+  gap: 10px;
+}
+
+li:hover {
+  background-color: rgba(255, 255, 255, 0.03);
+  border-radius: 0.5em;
+  color: white;
+  opacity: 1;
+}
+
+.users-offline {
+  opacity: 0.5;
+}
+
+.users-offline:hover {
+  opacity: 1;
 }
