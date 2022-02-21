@@ -129,19 +129,18 @@ li > p {
 .voice-connected {
   display: flex;
   flex-direction: column;
+  margin-top: auto;
 }
 
 .voice-channel-info-text {
   display: flex;
-  color:white;
+  color: white;
   flex-direction: column;
 }
 
 .voice-channel-info {
   background-color: #292b2f;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  padding-left: 0.5em;
 }
 
 .voice-channel-actions {
@@ -167,5 +166,4 @@ li > p {
 .btn-screen {
   display: flex;
   align-items: center;
-
 }

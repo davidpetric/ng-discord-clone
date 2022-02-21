@@ -1,33 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;800;900&display=swap");
-
-* {
-  font-family: "Montserrat", sans-serif;
-}
-
-html {
-  height: 100%;
-}
-
 .container {
   display: flex;
+  height: 100vh;
+  width: 100vw;
 }
 
 .col-side-menu {
   width: 100px;
-  height: 1200px;
 }
 
 .col-guild-side-menu {
   width: 250px;
-  height: 1000px;
+
 }
 
 .col-guild-chat {
   width: 1500px;
-  height: 1000px;
+
 }
 
 .col-guild-members {
   width: 250px;
-  height: 1000px;
 }
+
+
