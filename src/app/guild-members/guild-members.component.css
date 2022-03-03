@@ -31,7 +31,7 @@ ul {
 li {
   display: flex;
   width: 100%;
-  align-items: center;
+  align-items: safe center;
   justify-items: flex-start;
   gap: 10px;
 }

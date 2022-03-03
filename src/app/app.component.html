@@ -1,12 +1,12 @@
 <div class="container">
-  <app-side-menu class="col-side-menu"></app-side-menu>
-  <app-guild-side-menu class="col-guild-side-menu"></app-guild-side-menu>
+  <app-side-menu class="side-menu"></app-side-menu>
+  <app-guild-side-menu class="guild-side-menu"></app-guild-side-menu>
 
-  <div class="guild-navbar-chat-members">
-    <app-guild-navbar class="guild-navbar"></app-guild-navbar>
+  <div class="navbar-chat-members">
+    <app-guild-navbar class="navbar"></app-guild-navbar>
     <div class="chat-members">
-      <app-guild-chat class="col-guild-chat"></app-guild-chat>
-      <app-guild-members class="col-guild-members"></app-guild-members>
+      <app-guild-chat class="chat"></app-guild-chat>
+      <app-guild-members class="members" *ngIf="false"></app-guild-members>
     </div>
   </div>
 </div>

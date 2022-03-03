@@ -47,7 +47,7 @@ img {
 
 .text-center {
   display: flex;
-  align-items: center;
+  align-items: safe center;
   justify-content: center;
 }
 
@@ -97,7 +97,7 @@ img {
 .side-menu {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   row-gap: 10px;
   padding: 15px;
 }

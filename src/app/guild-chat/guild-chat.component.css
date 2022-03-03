@@ -9,7 +9,6 @@
 }
 
 .messages {
-  max-height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -78,7 +77,7 @@ li > p {
 
 .meta {
   display: flex;
-  align-items: baseline;
+  align-items: safe baseline;
   gap: 1em;
   margin-left: 1.5em;
 }
@@ -98,7 +97,7 @@ li > p {
 .strike {
   display: flex;
   text-align: center;
-  align-items: center;
+  align-items: safe center;
   color: #6c7077;
   margin-left: 1em;
   margin-right: 1em;
@@ -138,7 +137,7 @@ li > p {
   border-radius: 10px;
   color: #b7b8ba;
   justify-items: center;
-  align-items: center;
+  align-items: safe center;
 }
 
 input {
@@ -149,10 +148,9 @@ input {
   text-align: start;
   color: #b7b8ba;
   overflow-wrap: break-word;
+  outline: none;
 }
 
 .plus-circle {
-  width: 25px;
-  height: 25px;
-  margin-left:20px;
+  margin-left: 20px;
 }

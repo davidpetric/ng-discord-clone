@@ -10,20 +10,26 @@
 }
 
 .server-name {
+  display: flex;
+  align-items: safe center;
   color: white;
   font-size: 0.5rem;
-  padding: 2em;
+  height: 57px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+  padding-left: 3em;
 }
 
 .server-channels {
   color: #8e9293;
   font-size: 0.8rem;
   font-weight: 600;
+  padding: 0.6em;
 }
 
 .server-channel-header {
-  display: inline-flex;
-  align-items: center;
+  display: flex;
+  align-items: safe center;
+  gap: 0.3em;
 }
 
 ul {
@@ -69,18 +75,17 @@ li > p {
 
 .text-channel-actions {
   display: flex;
-  margin-left: 8em;
+  margin-left: auto;
   font-size: 0.7rem;
   gap: 1em;
 }
 
 .user-info {
-  display: inline-flex;
+  display: flex;
   background-color: #292b2f;
   height: 60px;
   width: 250px;
-  gap: 0.5em;
-  align-items: center;
+  align-items: safe center;
   color: #8e9293;
 }
 
@@ -120,16 +125,15 @@ li > p {
 }
 
 .user-actions {
-  margin-left: 1em;
+  margin-left: auto;
   display: flex;
-  flex-direction: row;
   gap: 1.2em;
+  padding: 0.5em;
 }
 
 .voice-connected {
-  display: flex;
-  flex-direction: column;
-  margin-top: auto;
+  position: relative;
+  bottom: 0;
 }
 
 .voice-channel-info-text {
@@ -148,22 +152,23 @@ li > p {
   padding: 0.2em;
 }
 
-.btn {
-  border: none;
-  border-radius: 10%;
-  color: white;
-  fill: white;
-  background-color: #2e3035;
-  width: 6.5em;
-  font-size: 1rem;
-  margin-left: 0.8em;
-}
 .btn-video {
   display: flex;
-  align-items: center;
+  align-items: safe center;
 }
 
 .btn-screen {
   display: flex;
-  align-items: center;
+  align-items: safe center;
+}
+
+.chevron {
+  font-size: 0.5rem;
+}
+
+.add-to-channel {
+  margin-left: auto;
+}
+.add-to-channel > .im-plus {
+  font-size: 0.7rem;
 }

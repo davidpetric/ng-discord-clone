@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+button {
+  all: initial;
+  color: var(--light-gray);
+}
+
+button:hover {
+  color: var(--washed-white);
+}
+
+.im {
+  font-size: 1rem;
+}
