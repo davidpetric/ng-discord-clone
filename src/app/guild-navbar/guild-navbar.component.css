@@ -6,7 +6,7 @@
   color: #b9bbbe;
   display: flex;
   align-items: safe center;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 30%);
   position: relative;
   height: 57px;
 }
@@ -16,7 +16,7 @@
   align-items: safe center;
   color: white;
   gap: 10px;
-  padding-left: 1em;
+  padding-left: 16px;
 }
 
 .icons-and-search-box {
@@ -47,16 +47,13 @@
 
 .search-input > input:focus {
   width: 210px;
+  outline: none;
 }
 
 .f-search {
   margin-right: 5px;
   width: 18px;
   height: 18px;
-}
-
-input:focus {
-  outline: none;
 }
 
 input::placeholder {

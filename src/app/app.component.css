@@ -1,19 +1,36 @@
-.container {
-  display: flex;
-  flex-direction: row;
+app-side-menu {
+  width: 100px;
+  height: 100vh;
+  flex: 0;
+  flex-shrink: 0;
 }
-.navbar-chat-members {
-  flex: 1 1 234px;
+
+app-guild-side-menu {
+  width: 250px;
+  height: 100vh;
+  flex: 0;
+  flex-shrink: 0;
+}
+
+.nav-chat-members {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-shrink: 0;
 }
 
 .chat-members {
   display: flex;
+  flex-direction: row;
+  height: calc(100vh - 57px);
+  flex: 1;
+  flex-shrink: 0;
 }
 
 .chat {
-  flex: 1 1600px;
+  flex: 1 85%;
 }
 
 .members {
-  flex: 1 180px;
+  flex: 1 15%;
 }

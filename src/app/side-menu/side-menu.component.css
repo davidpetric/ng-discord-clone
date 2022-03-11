@@ -1,7 +1,4 @@
 .container {
-  height: 100%;
-  overflow-y: scroll;
-  overflow-x: hidden;
   scrollbar-width: none;
 }
 
@@ -18,6 +15,7 @@
   color: white;
   transition: 0.18s;
   transition-timing-function: ease-in-out;
+  cursor: pointer;
 }
 
 #logo:hover {
@@ -30,6 +28,14 @@ img {
   border-radius: 50%;
   transition: 0.2s;
   transition-timing-function: ease-in-out;
+}
+
+.active {
+  border-radius: 35%;
+}
+
+.active > img {
+  border-radius: 35%;
 }
 
 .icon > img:hover {
@@ -68,14 +74,6 @@ img {
   border-radius: 50%;
 }
 
-.active {
-  border-radius: 35%;
-}
-
-.active > img {
-  border-radius: 35%;
-}
-
 .logo {
   width: 35px;
   height: 45px;
@@ -84,8 +82,7 @@ img {
 .hr {
   width: 55%;
   border-style: solid;
-  border-top-color: transparent;
-  border-color: #2d2f32;
+  border-color: transparent #2d2f32;
   background-color: transparent;
   border-width: 1px;
 }

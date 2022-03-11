@@ -1,13 +1,59 @@
 /* You can add global styles to this file, and also import other style files */
+@import "colors.css";
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+
+}
+
 button {
   all: initial;
   color: var(--light-gray);
+  cursor: pointer;
 }
 
 button:hover {
   color: var(--washed-white);
 }
 
+
+.container {
+  display: flex;
+  scrollbar-color: rgb(0, 0, 0, 50%);
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+
 .im {
   font-size: 1rem;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 0, 50%);
 }
